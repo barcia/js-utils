@@ -1,0 +1,13 @@
+{
+  "name": "@barcia/js-utils",
+  "version": "0.1.0",
+  "description": "JavaScript utilities",
+  "repository": "github:barcia/js-utils",
+  "keywords": ["js", "javacript", "utils", "utilities", "browser", "dom", "node"],
+  "author": {
+    "name": "Iván Barcia",
+    "url": "https://barcia.dev"
+  },
+  "main": "main.js",
+  "license": "MIT"
+}
