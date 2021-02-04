@@ -8,3 +8,4 @@ export const isFunction = x => typeof x === 'function';
 export const isTrue = x => x === true;
 export const isFalse = x => x === false;
 export const hasValue = x => !isNull(x) && !isUndefined(x);
+export const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
