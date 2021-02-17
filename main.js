@@ -12,3 +12,4 @@ export const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 export const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 export { default as throttle } from "./lib/main/throttle/index";
 export { default as debounce } from "./lib/main/debounce/index";
+export { default as curry } from "./lib/main/curry.js";
